@@ -28,6 +28,7 @@ jobs:
         ls
         pwd
         chmod +x build.sh
+        /usr/bin/git fetch origin dev
         /usr/bin/git diff origin/dev
         ./build.sh
 
