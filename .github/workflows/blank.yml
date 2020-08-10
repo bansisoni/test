@@ -28,6 +28,7 @@ jobs:
         ls
         pwd
         chmod +x build.sh
+        git diff dev
         ./build.sh
 
     # Runs a set of commands using the runners shell
